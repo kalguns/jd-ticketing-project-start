@@ -196,52 +196,98 @@
                 <!-- ============================================================== -->
 
                 <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="col-lg-6 col-md-6">
                                 <form>
-                                    <div class="form-group">
-                                        <label for="inputText3" class="col-form-label">Input Text</label>
-                                        <input id="inputText3" type="text" class="form-control">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label for="firstname" class="col-form-label">First Name</label>
+                                                <input id="firstname" type="text" placeholder="first name" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label for="lastname" class="col-form-label">Last Name</label>
+                                                <input id="lastname" type="text" placeholder="last name" class="form-control">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputEmail">Email address</label>
-                                        <input id="inputEmail" type="email" placeholder="name@example.com" class="form-control">
-                                        <p>We'll never share your email with anyone else.</p>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label for="email" class="col-form-label">Email Address</label>
+                                                <input id="email" type="email" placeholder="email" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label for="phonenumber" class="col-form-label">Phone Number</label>
+                                                <input id="phonenumber" type="text" placeholder="phonenumber" class="form-control">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputText4" class="col-form-label">Number Input</label>
-                                        <input id="inputText4" type="number" class="form-control" placeholder="Numbers">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label for="password" class="col-form-label">Password</label>
+                                                <input id="password" type="email" placeholder="password" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label for="re-password" class="col-form-label">Phone Number</label>
+                                                <input id="re-password" type="password" placeholder="confirm your password" class="form-control">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputPassword">Password</label>
-                                        <input id="inputPassword" type="password" placeholder="Password" class="form-control">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label>Gender</label><br>
+                                                <label class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" name="radio-inline" checked="" class="custom-control-input"><span class="custom-control-label">Male</span>
+                                                </label>
+                                                <label class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" name="radio-inline" class="custom-control-input"><span class="custom-control-label">Female</span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-6 col-mid-6">
+                                            <div class="form-group">
+                                                <label>Choose a Role</label>
+                                                <select name="roleid" id="roleid" class="custom-select" required="required">
+                                                    <option value="select>" selected="selected">Select</option>
+                                                    <option value="admin>">Admin</option>
+                                                    <option value="manager>">Manager</option>
+                                                    <option value="employee>">Employee</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="custom-file mb-3">
-                                        <input type="file" class="custom-file-input" id="customFile">
-                                        <label class="custom-file-label" for="customFile">File Input</label>
+
+                                    <div class="row">
+                                        <div class="col-sm-6 col-mid-6 col-lg-12">
+                                            <div class="float-right">
+                                            <button class="btn btn-success rounded-0" type="submit">Save</button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Example textarea</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
+
                                 </form>
-                            <div class="card-body border-top">
-                                <h3>Sizing</h3>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="inputSmall" class="col-form-label">Small</label>
-                                        <input id="inputSmall" type="text" value=".form-control-sm" class="form-control form-control-sm">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputDefault" class="col-form-label">Default</label>
-                                        <input id="inputDefault" type="text" value="Default input" class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputLarge" class="col-form-label">Large</label>
-                                        <input id="inputLarge" type="text" value=".form-control-lg" class="form-control form-control-lg">
-                                    </div>
-                                </form>
-                            </div>
                     </div>
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header">
+                                <h2 class="pageheader-title">User List</h2>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
